@@ -1,0 +1,5 @@
+services:
+  jsonp_encoder.encoder.js:
+    class: Drupal\jsonp_encoder\Encoder\JsonpEncoder
+    tags:
+      - { name: encoder, format: jsonp }

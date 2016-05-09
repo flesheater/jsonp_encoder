@@ -1,0 +1,10 @@
+type: module
+name: Jsonp Encoder
+description: 'A module that just adds a jsonp encoder'
+package: jsonp_encoder
+dependencies:
+  - serialization
+
+core: '8.x'
+project: 'jsonp_encoder'
+version: '8.x'
